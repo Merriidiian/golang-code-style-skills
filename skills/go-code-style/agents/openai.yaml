@@ -2,3 +2,5 @@ interface:
   display_name: "Стиль Go"
   short_description: "Идиоматичный Go, ошибки и конкурентность"
   default_prompt: "Используй $go-code-style для ревью этого Go-кода и внеси нужные исправления."
+policy:
+  allow_implicit_invocation: true
